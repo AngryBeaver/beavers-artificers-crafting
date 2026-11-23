@@ -1,0 +1,31 @@
+{
+  "name": "beavers-artificers-crafting",
+  "title": "Beaver's Artificer's Crafting",
+  "version": "0.0.0",
+  "description": "Artificer recipes for Beaver's Crafting (dnd5e, D&D 2024): Tinker's Magic and the plans of Replicate Magic Item",
+  "devDir": "c:\\vtts\\v14.368\\Data\\modules",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "node build.mjs build",
+    "watch": "node build.mjs watch",
+    "clean": "node build.mjs clean",
+    "devbuild": "node build.mjs dev",
+    "devwatch": "node build.mjs devwatch",
+    "release": "node build.mjs zip",
+    "recipes": "node tools/artificer-recipes.mjs"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "quoteProps": "consistent",
+    "trailingComma": "all",
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.1.0",
+    "archiver": "^7.0.1",
+    "esbuild": "^0.25.1"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

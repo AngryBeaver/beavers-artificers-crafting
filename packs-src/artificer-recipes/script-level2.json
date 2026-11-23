@@ -1,0 +1,22 @@
+{
+  "_id": "bac04310d5e95ee1",
+  "_key": "!items!bac04310d5e95ee1",
+  "name": "Artificer level 2",
+  "type": "loot",
+  "folder": "bac3b775e5e5f954",
+  "img": "icons/sundries/books/book-worn-blue.webp",
+  "sort": 300,
+  "system": {
+    "description": {
+      "value": "<p>Requirement: the actor has at least 2 levels in the class Artificer (identifier \"artificer\").</p>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Script",
+      "script": {
+        "macro": "{\n  check() {\n    return game.modules.get(\"beavers-artificers-crafting\").api.replicate.level(actor, 2);\n  }\n}"
+      }
+    }
+  }
+}

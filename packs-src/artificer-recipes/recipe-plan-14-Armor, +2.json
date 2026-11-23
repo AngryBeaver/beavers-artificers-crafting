@@ -1,0 +1,328 @@
+{
+  "_id": "bacaeaaeab52eceb",
+  "_key": "!items!bacaeaaeab52eceb",
+  "name": "Plan: Armor, +2",
+  "type": "loot",
+  "folder": "bacc6ea33c8ae0de",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/plus-one-plate-armor.webp",
+  "system": {
+    "description": {
+      "value": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 14+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 14.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>Choose the base item; it gets +2 when it is created.</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Recipe",
+      "recipe": {
+        "required": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbtulTinkersToo": {
+              "id": "phbtulTinkersToo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo",
+              "img": "icons/commodities/cloth/thread-spindle-white-needle.webp",
+              "name": "Tinker's Tools",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "tool"
+            }
+          },
+          "2": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac96199f6107c39": {
+              "id": "bac96199f6107c39",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac96199f6107c39",
+              "img": "icons/sundries/books/book-worn-blue.webp",
+              "name": "Artificer level 14",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "input": {
+          "1": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac068e6e6227e92": {
+              "id": "bac068e6e6227e92",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac068e6e6227e92",
+              "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+              "name": "Replicate Magic Item",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "output": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmBreastplat": {
+              "id": "phbarmBreastplat",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmBreastplat",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/breastplate.webp",
+              "name": "Breastplate",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmChainMail0": {
+              "id": "phbarmChainMail0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/chain-mail.webp",
+              "name": "Chain Mail",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmChainShirt": {
+              "id": "phbarmChainShirt",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/chain-shirt.webp",
+              "name": "Chain Shirt",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmHalfPlateA": {
+              "id": "phbarmHalfPlateA",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmHalfPlateA",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/half-plate-armor.webp",
+              "name": "Half Plate Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmHideArmor0": {
+              "id": "phbarmHideArmor0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/hide-armor.webp",
+              "name": "Hide Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmLeatherArm": {
+              "id": "phbarmLeatherArm",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/leather-armor.webp",
+              "name": "Leather Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmPaddedArmo": {
+              "id": "phbarmPaddedArmo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/padded-armor.webp",
+              "name": "Padded Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmPlateArmor": {
+              "id": "phbarmPlateArmor",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmPlateArmor",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/plate-armor.webp",
+              "name": "Plate Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmRingMail00": {
+              "id": "phbarmRingMail00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmRingMail00",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/ring-mail.webp",
+              "name": "Ring Mail",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmScaleMail0": {
+              "id": "phbarmScaleMail0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmScaleMail0",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/scale-mail.webp",
+              "name": "Scale Mail",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmSplintArmo": {
+              "id": "phbarmSplintArmo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/splint-armor.webp",
+              "name": "Splint Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbarmStuddedLea": {
+              "id": "phbarmStuddedLea",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea",
+              "img": "modules/dnd-players-handbook/assets/icons/armor/studded-leather-armor.webp",
+              "name": "Studded Leather Armor",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Armor, +2",
+                  "enchant": {
+                    "kind": "armor",
+                    "bonus": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificers-crafting\").api.resolve(component, preview);\n  }\n}",
+        "folder": "Artificer Plans (Level 14+)",
+        "instruction": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 14+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 14.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>Choose the base item; it gets +2 when it is created.</li>\n</ul>"
+      }
+    }
+  }
+}

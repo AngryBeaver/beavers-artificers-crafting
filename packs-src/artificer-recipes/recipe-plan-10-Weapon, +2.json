@@ -1,0 +1,944 @@
+{
+  "_id": "bac7e4ac0c367b7d",
+  "_key": "!items!bac7e4ac0c367b7d",
+  "name": "Plan: Weapon, +2",
+  "type": "loot",
+  "folder": "bacc7030e7bbc1f9",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/plus-one-weapon-war-pick.webp",
+  "system": {
+    "description": {
+      "value": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 10+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 10.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>Choose the base item; it gets +2 when it is created.</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Recipe",
+      "recipe": {
+        "required": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbtulTinkersToo": {
+              "id": "phbtulTinkersToo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo",
+              "img": "icons/commodities/cloth/thread-spindle-white-needle.webp",
+              "name": "Tinker's Tools",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "tool"
+            }
+          },
+          "2": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bacbe532fc63a6f1": {
+              "id": "bacbe532fc63a6f1",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bacbe532fc63a6f1",
+              "img": "icons/sundries/books/book-worn-blue.webp",
+              "name": "Artificer level 10",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "input": {
+          "1": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac068e6e6227e92": {
+              "id": "bac068e6e6227e92",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac068e6e6227e92",
+              "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+              "name": "Replicate Magic Item",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "output": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepBattleaxe0": {
+              "id": "phbwepBattleaxe0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepBattleaxe0",
+              "img": "modules/dnd-players-handbook/assets/icons/items/battleaxe.webp",
+              "name": "Battleaxe",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepBlowgun000": {
+              "id": "phbwepBlowgun000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepBlowgun000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/blowgun.webp",
+              "name": "Blowgun",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepClub000000": {
+              "id": "phbwepClub000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/club.webp",
+              "name": "Club",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepDagger0000": {
+              "id": "phbwepDagger0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/dagger.webp",
+              "name": "Dagger",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepDart000000": {
+              "id": "phbwepDart000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepDart000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/dart.webp",
+              "name": "Dart",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepFlail00000": {
+              "id": "phbwepFlail00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepFlail00000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/flail.webp",
+              "name": "Flail",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepGlaive0000": {
+              "id": "phbwepGlaive0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepGlaive0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/glaive.webp",
+              "name": "Glaive",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepGreataxe00": {
+              "id": "phbwepGreataxe00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00",
+              "img": "modules/dnd-players-handbook/assets/icons/items/greataxe.webp",
+              "name": "Greataxe",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepGreatclub0": {
+              "id": "phbwepGreatclub0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0",
+              "img": "modules/dnd-players-handbook/assets/icons/items/greatclub.webp",
+              "name": "Greatclub",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepGreatsword": {
+              "id": "phbwepGreatsword",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword",
+              "img": "modules/dnd-players-handbook/assets/icons/items/greatsword.webp",
+              "name": "Greatsword",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepHalberd000": {
+              "id": "phbwepHalberd000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepHalberd000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/halberd.webp",
+              "name": "Halberd",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepHandCrossb": {
+              "id": "phbwepHandCrossb",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandCrossb",
+              "img": "modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp",
+              "name": "Hand Crossbow",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepHandaxe000": {
+              "id": "phbwepHandaxe000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/handaxe.webp",
+              "name": "Handaxe",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepHeavyCross": {
+              "id": "phbwepHeavyCross",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepHeavyCross",
+              "img": "modules/dnd-players-handbook/assets/icons/items/heavy-crossbow.webp",
+              "name": "Heavy Crossbow",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepJavelin000": {
+              "id": "phbwepJavelin000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepJavelin000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/javelin.webp",
+              "name": "Javelin",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepLance00000": {
+              "id": "phbwepLance00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepLance00000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/lance.webp",
+              "name": "Lance",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepLightCross": {
+              "id": "phbwepLightCross",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross",
+              "img": "modules/dnd-players-handbook/assets/icons/items/light-crossbow.webp",
+              "name": "Light Crossbow",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepLightHamme": {
+              "id": "phbwepLightHamme",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepLightHamme",
+              "img": "modules/dnd-players-handbook/assets/icons/items/light-hammer.webp",
+              "name": "Light Hammer",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepLongbow000": {
+              "id": "phbwepLongbow000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepLongbow000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/longbow.webp",
+              "name": "Longbow",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepLongsword0": {
+              "id": "phbwepLongsword0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0",
+              "img": "modules/dnd-players-handbook/assets/icons/items/longsword.webp",
+              "name": "Longsword",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepMace000000": {
+              "id": "phbwepMace000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/mace.webp",
+              "name": "Mace",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepMaul000000": {
+              "id": "phbwepMaul000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepMaul000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/maul.webp",
+              "name": "Maul",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepMorningsta": {
+              "id": "phbwepMorningsta",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepMorningsta",
+              "img": "modules/dnd-players-handbook/assets/icons/items/morningstar.webp",
+              "name": "Morningstar",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepMusket0000": {
+              "id": "phbwepMusket0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/musket.webp",
+              "name": "Musket",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepPike000000": {
+              "id": "phbwepPike000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepPike000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/pike.webp",
+              "name": "Pike",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepPistol0000": {
+              "id": "phbwepPistol0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/pistol.webp",
+              "name": "Pistol",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepQuartersta": {
+              "id": "phbwepQuartersta",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta",
+              "img": "modules/dnd-players-handbook/assets/icons/items/quarterstaff.webp",
+              "name": "Quarterstaff",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepRapier0000": {
+              "id": "phbwepRapier0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/rapier.webp",
+              "name": "Rapier",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepScimitar00": {
+              "id": "phbwepScimitar00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00",
+              "img": "modules/dnd-players-handbook/assets/icons/items/scimitar.webp",
+              "name": "Scimitar",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepShortbow00": {
+              "id": "phbwepShortbow00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00",
+              "img": "modules/dnd-players-handbook/assets/icons/items/shortbow.webp",
+              "name": "Shortbow",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepShortsword": {
+              "id": "phbwepShortsword",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword",
+              "img": "modules/dnd-players-handbook/assets/icons/items/shortsword.webp",
+              "name": "Shortsword",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepSickle0000": {
+              "id": "phbwepSickle0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/sickle.webp",
+              "name": "Sickle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepSling00000": {
+              "id": "phbwepSling00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/sling.webp",
+              "name": "Sling",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepSpear00000": {
+              "id": "phbwepSpear00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/spear.webp",
+              "name": "Spear",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbafcStaffalsoa": {
+              "id": "phbafcStaffalsoa",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa",
+              "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+              "name": "Staff",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepTrident000": {
+              "id": "phbwepTrident000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepTrident000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/trident.webp",
+              "name": "Trident",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepWarPick000": {
+              "id": "phbwepWarPick000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepWarPick000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/war-pick.webp",
+              "name": "War Pick",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepWarhammer0": {
+              "id": "phbwepWarhammer0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepWarhammer0",
+              "img": "modules/dnd-players-handbook/assets/icons/items/warhammer.webp",
+              "name": "Warhammer",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbwepWhip000000": {
+              "id": "phbwepWhip000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000",
+              "img": "modules/dnd-players-handbook/assets/icons/items/whip.webp",
+              "name": "Whip",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbdfcWoodenstaf": {
+              "id": "phbdfcWoodenstaf",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf",
+              "img": "icons/weapons/staves/staff-nature-spiral.webp",
+              "name": "Wooden staff",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "weapon",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Weapon, +2",
+                  "enchant": {
+                    "kind": "weapon",
+                    "bonus": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificers-crafting\").api.resolve(component, preview);\n  }\n}",
+        "folder": "Artificer Plans (Level 10+)",
+        "instruction": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 10+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 10.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>Choose the base item; it gets +2 when it is created.</li>\n</ul>"
+      }
+    }
+  }
+}

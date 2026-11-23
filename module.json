@@ -1,0 +1,74 @@
+{
+  "title": "{{title}}",
+  "description": "{{description}}",
+  "id": "{{name}}",
+  "version": "{{version}}",
+  "authors": [
+    {
+      "name": "angryBeaver",
+      "url": "https://github.com/angrybeaver"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": "{{sources}}",
+  "styles": "{{css}}",
+  "packs": [
+    {
+      "label": "D&D 2024 Artificer Recipes",
+      "name": "artificer-recipes",
+      "path": "packs/artificer-recipes",
+      "system": "dnd5e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/AngryBeaver/beavers-artificers-crafting/main/media/compendium-plans.png",
+      "caption": "Beaver's Artificer's Crafting"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/AngryBeaver/beavers-artificers-crafting/main/media/compendium-plans.png",
+      "caption": "The compendium with Tinker's Magic and three plans of Replicate Magic Item"
+    }
+  ],
+  "url": "https://github.com/AngryBeaver/beavers-artificers-crafting",
+  "manifest": "https://github.com/AngryBeaver/beavers-artificers-crafting/releases/latest/download/module.json",
+  "download": "https://github.com/AngryBeaver/beavers-artificers-crafting/releases/latest/download/beavers-artificers-crafting.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "6.1.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "beavers-crafting",
+        "type": "module",
+        "manifest": "https://github.com/AngryBeaver/beavers-crafting/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "4.13.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  }
+}

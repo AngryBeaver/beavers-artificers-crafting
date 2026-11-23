@@ -1,0 +1,1072 @@
+{
+  "_id": "bac90bd73b1bfc3b",
+  "_key": "!items!bac90bd73b1bfc3b",
+  "name": "Plan: Uncommon Wondrous Item",
+  "type": "loot",
+  "folder": "bacc7030e7bbc1f9",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 10+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 10.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>You can learn this plan several times, a different item each time: copy the recipe and keep one result.</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Recipe",
+      "recipe": {
+        "required": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbtulTinkersToo": {
+              "id": "phbtulTinkersToo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo",
+              "img": "icons/commodities/cloth/thread-spindle-white-needle.webp",
+              "name": "Tinker's Tools",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "tool"
+            }
+          },
+          "2": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bacbe532fc63a6f1": {
+              "id": "bacbe532fc63a6f1",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bacbe532fc63a6f1",
+              "img": "icons/sundries/books/book-worn-blue.webp",
+              "name": "Artificer level 10",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "input": {
+          "1": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac068e6e6227e92": {
+              "id": "bac068e6e6227e92",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac068e6e6227e92",
+              "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+              "name": "Replicate Magic Item",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "output": {
+          "1": {
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgAlchemyJugCon": {
+              "id": "dmgAlchemyJugCon",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAlchemyJugCon",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/alchemy-jug.webp",
+              "name": "Alchemy Jug",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgAmuletOfProof": {
+              "id": "dmgAmuletOfProof",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmuletOfProof",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/amulet-of-proof-against-detection-location.webp",
+              "name": "Amulet of Proof against Detection and Location",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBabaYagasDanc": {
+              "id": "dmgBabaYagasDanc",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBabaYagasDanc",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/baba-yagas-dancing-broom.webp",
+              "name": "Baba Yaga's Dancing Broom",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBagOfHolding0": {
+              "id": "dmgBagOfHolding0",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfHolding0",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/bag-of-holding.webp",
+              "name": "Bag of Holding",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBootsOfElvenk": {
+              "id": "dmgBootsOfElvenk",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfElvenk",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/boots-of-elvenkind.webp",
+              "name": "Boots of Elvenkind",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBootsOfStridi": {
+              "id": "dmgBootsOfStridi",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfStridi",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/boots-of-striding-and-springing.webp",
+              "name": "Boots of Striding and Springing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBootsOfTheWin": {
+              "id": "dmgBootsOfTheWin",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBootsOfTheWin",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/boots-of-the-winterlands.webp",
+              "name": "Boots of the Winterlands",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBracersOfArch": {
+              "id": "dmgBracersOfArch",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBracersOfArch",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/bracers-of-archery.webp",
+              "name": "Bracers of Archery",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBroochOfShiel": {
+              "id": "dmgBroochOfShiel",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBroochOfShiel",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/brooch-of-shielding.webp",
+              "name": "Brooch of Shielding",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBroomOfFlying": {
+              "id": "dmgBroomOfFlying",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBroomOfFlying",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/broom-of-flying.webp",
+              "name": "Broom of Flying",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgCapOfWaterBre": {
+              "id": "dmgCapOfWaterBre",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCapOfWaterBre",
+              "img": "icons/equipment/head/cap-simple-leather-tan.webp",
+              "name": "Cap of Water Breathing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgCircletOfBlas": {
+              "id": "dmgCircletOfBlas",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCircletOfBlas",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/circlet-of-blasting.webp",
+              "name": "Circlet of Blasting",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgCloakOfElvenk": {
+              "id": "dmgCloakOfElvenk",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfElvenk",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/cloak-of-elvenkind.webp",
+              "name": "Cloak of Elvenkind",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgCloakOfProtec": {
+              "id": "dmgCloakOfProtec",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfProtec",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/cloak-of-protection.webp",
+              "name": "Cloak of Protection",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgCloakOfTheMan": {
+              "id": "dmgCloakOfTheMan",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCloakOfTheMan",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/cloak-of-the-manta-ray.webp",
+              "name": "Cloak of the Manta Ray",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgDecanterOfEnd": {
+              "id": "dmgDecanterOfEnd",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDecanterOfEnd",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/decanter-of-endless-water.webp",
+              "name": "Decanter of Endless Water",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgDeckOfIllusio": {
+              "id": "dmgDeckOfIllusio",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDeckOfIllusio",
+              "img": "icons/sundries/gaming/playing-cards-black.webp",
+              "name": "Deck of Illusions",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgDossLuteInstr": {
+              "id": "dmgDossLuteInstr",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDossLuteInstr",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/doss-lute.webp",
+              "name": "Doss Lute Instrument of the Bards",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgDriftglobe000": {
+              "id": "dmgDriftglobe000",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDriftglobe000",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/driftglobe.webp",
+              "name": "Driftglobe",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgEversmokingBo": {
+              "id": "dmgEversmokingBo",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEversmokingBo",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/eversmoking-bottle.webp",
+              "name": "Eversmoking Bottle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgEyesOfCharmin": {
+              "id": "dmgEyesOfCharmin",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyesOfCharmin",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/eyes-of-charming.webp",
+              "name": "Eyes of Charming",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgEyesOfMinuteS": {
+              "id": "dmgEyesOfMinuteS",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyesOfMinuteS",
+              "img": "icons/tools/scribal/spectacles-glasses.webp",
+              "name": "Eyes of Minute Seeing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgEyesOfTheEagl": {
+              "id": "dmgEyesOfTheEagl",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyesOfTheEagl",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/eyes-of-the-eagle.webp",
+              "name": "Eyes of the Eagle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgFochlucanBand": {
+              "id": "dmgFochlucanBand",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFochlucanBand",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/fochlucan-bandore.webp",
+              "name": "Fochlucan Bandore Instrument of the Bards",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGauntletsOfOg": {
+              "id": "dmgGauntletsOfOg",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGauntletsOfOg",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/gauntlets-of-ogre-power.webp",
+              "name": "Gauntlets of Ogre Power",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGemOfBrightne": {
+              "id": "dmgGemOfBrightne",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGemOfBrightne",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/gem-of-brightness.webp",
+              "name": "Gem of Brightness",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGlovesOfMissi": {
+              "id": "dmgGlovesOfMissi",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlovesOfMissi",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/gloves-of-missile-snaring.webp",
+              "name": "Gloves of Missile Snaring",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGlovesOfSwimm": {
+              "id": "dmgGlovesOfSwimm",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlovesOfSwimm",
+              "img": "icons/equipment/hand/glove-cuffed-leather-purple.webp",
+              "name": "Gloves of Swimming and Climbing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGlovesOfThiev": {
+              "id": "dmgGlovesOfThiev",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlovesOfThiev",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/gloves-of-thievery.webp",
+              "name": "Gloves of Thievery",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgGogglesOfNigh": {
+              "id": "dmgGogglesOfNigh",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGogglesOfNigh",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/goggles-of-night.webp",
+              "name": "Goggles of Night",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgBagOfTricks00": {
+              "id": "dmgBagOfTricks00",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBagOfTricks00",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/bag-of-tricks.webp",
+              "name": "Gray Bag of Tricks",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgHagEye0000000": {
+              "id": "dmgHagEye0000000",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHagEye0000000",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/hag-eye.webp",
+              "name": "Hag Eye",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgHatOfDisguise": {
+              "id": "dmgHatOfDisguise",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHatOfDisguise",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/hat-of-disguise.webp",
+              "name": "Hat of Disguise",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgHeadbandOfInt": {
+              "id": "dmgHeadbandOfInt",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHeadbandOfInt",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/headband-of-intellect.webp",
+              "name": "Headband of Intellect",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgHelmOfCompreh": {
+              "id": "dmgHelmOfCompreh",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHelmOfCompreh",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/helm-of-comprehending-languages.webp",
+              "name": "Helm of Comprehending Languages",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgHelmOfTelepat": {
+              "id": "dmgHelmOfTelepat",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHelmOfTelepat",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/helm-of-telepathy.webp",
+              "name": "Helm of Telepathy",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgLanternOfReve": {
+              "id": "dmgLanternOfReve",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgLanternOfReve",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/lantern-of-revealing.webp",
+              "name": "Lantern of Revealing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgMacfuirmidhCi": {
+              "id": "dmgMacfuirmidhCi",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMacfuirmidhCi",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/mac-fuirmidh-cittern.webp",
+              "name": "Mac-Fuirmidh Cittern Instrument of the Bards",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgMedallionOfTh": {
+              "id": "dmgMedallionOfTh",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMedallionOfTh",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/medallion-of-thoughts.webp",
+              "name": "Medallion of Thoughts",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgNaturesMantle": {
+              "id": "dmgNaturesMantle",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgNaturesMantle",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/natures-mantle.webp",
+              "name": "Nature's Mantle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgNecklaceOfAda": {
+              "id": "dmgNecklaceOfAda",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgNecklaceOfAda",
+              "img": "icons/equipment/neck/amulet-carved-stone-spiral-blue.webp",
+              "name": "Necklace of Adaptation",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgPearlOfPower0": {
+              "id": "dmgPearlOfPower0",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPearlOfPower0",
+              "img": "icons/commodities/gems/pearl-blue-gold.webp",
+              "name": "Pearl of Power",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgPeriaptOfHeal": {
+              "id": "dmgPeriaptOfHeal",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPeriaptOfHeal",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/periapt-of-health.webp",
+              "name": "Periapt of Health",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgPeriaptOfWoun": {
+              "id": "dmgPeriaptOfWoun",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPeriaptOfWoun",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/periapt-of-wound-closure.webp",
+              "name": "Periapt of Wound Closure",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgPipesOfHaunti": {
+              "id": "dmgPipesOfHaunti",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPipesOfHaunti",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/pipes-of-haunting.webp",
+              "name": "Pipes of Haunting",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgPipesOfTheSew": {
+              "id": "dmgPipesOfTheSew",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPipesOfTheSew",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/pipes-of-the-sewers.webp",
+              "name": "Pipes of the Sewers",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgQuiverOfEhlon": {
+              "id": "dmgQuiverOfEhlon",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuiverOfEhlon",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/quiver-of-ehlonna.webp",
+              "name": "Quiver of Ehlonna",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgRobeOfUsefulI": {
+              "id": "dmgRobeOfUsefulI",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRobeOfUsefulI",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/robe-of-useful-items.webp",
+              "name": "Robe of Useful Items",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgRopeOfClimbin": {
+              "id": "dmgRopeOfClimbin",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRopeOfClimbin",
+              "img": "icons/sundries/survival/rope-wrapped-red.webp",
+              "name": "Rope of Climbing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgSaddleOfTheCa": {
+              "id": "dmgSaddleOfTheCa",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSaddleOfTheCa",
+              "img": "icons/environment/creatures/horse-brown.webp",
+              "name": "Saddle of the Cavalier",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgSendingStones": {
+              "id": "dmgSendingStones",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSendingStones",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/sending-stones.webp",
+              "name": "Sending Stones",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgFwpSilverRave": {
+              "id": "dmgFwpSilverRave",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave",
+              "img": "icons/commodities/treasure/figurine-owl.webp",
+              "name": "Silver Raven",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgSlippersOfSpi": {
+              "id": "dmgSlippersOfSpi",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlippersOfSpi",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/slippers-of-spider-climbing.webp",
+              "name": "Slippers of Spider Climbing",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgStoneOfGoodLu": {
+              "id": "dmgStoneOfGoodLu",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStoneOfGoodLu",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/stone-of-good-luck.webp",
+              "name": "Stone of Good Luck (Luckstone)",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgWindFan000000": {
+              "id": "dmgWindFan000000",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWindFan000000",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/wind-fan.webp",
+              "name": "Wind Fan",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            },
+            "Compendium-dnd-dungeon-masters-guide-equipment-Item-dmgWingedBoots00": {
+              "id": "dmgWingedBoots00",
+              "uuid": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWingedBoots00",
+              "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/winged-boots.webp",
+              "name": "Winged Boots",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true
+                },
+                "beavers-artificers-crafting": {
+                  "replicated": true,
+                  "plan": "Plan: Uncommon Wondrous Item"
+                }
+              }
+            }
+          }
+        },
+        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificers-crafting\").api.resolve(component, preview);\n  }\n}",
+        "folder": "Artificer Plans (Level 10+)",
+        "instruction": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 10+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 10.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n<li>You can learn this plan several times, a different item each time: copy the recipe and keep one result.</li>\n</ul>"
+      }
+    }
+  }
+}

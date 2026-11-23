@@ -1,0 +1,16 @@
+{
+  "beaversArtificersCrafting": {
+    "tinkersMagic": {
+      "missing": "needs the feature Tinker's Magic",
+      "noUses": "needs {quantity} uses of Tinker's Magic"
+    },
+    "replicate": {
+      "level": "needs Artificer level {level}",
+      "samePlan": "this plan was already used since the last long rest",
+      "noneLeft": "no more magic items until the next long rest ({max} per long rest)",
+      "oldestVanished": "Replicate Magic Item: more items than allowed, the oldest vanishes: {items}",
+      "planVanished": "Replicate Magic Item: the plan was replaced, its items vanish: {items}"
+    },
+    "missingItem": "\"{name}\" ({type}) is not in the SRD 5.2: the Dungeon Master needs this item from its book (a compendium or world item with this name and type)."
+  }
+}

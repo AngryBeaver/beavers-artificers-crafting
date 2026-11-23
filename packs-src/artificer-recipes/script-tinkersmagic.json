@@ -1,0 +1,22 @@
+{
+  "_id": "bacd1dc7f5b5c3be",
+  "_key": "!items!bacd1dc7f5b5c3be",
+  "name": "Tinker's Magic use",
+  "type": "loot",
+  "folder": "bac3b775e5e5f954",
+  "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+  "sort": 100,
+  "system": {
+    "description": {
+      "value": "<p>Cost: uses of the feature Tinker's Magic.</p>\n<ul>\n<li>When the feature has uses set up, those are used.</li>\n<li>Otherwise this module counts them: Intelligence modifier (at least 1), all back after a long rest.</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Script",
+      "script": {
+        "macro": "{\n  check(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.check(actor, quantity);\n  },\n  pay(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.pay(actor, quantity);\n  },\n  refund(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.refund(actor, quantity);\n  }\n}"
+      }
+    }
+  }
+}

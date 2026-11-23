@@ -1,0 +1,518 @@
+{
+  "_id": "bac29f76f68bf00a",
+  "_key": "!items!bac29f76f68bf00a",
+  "name": "Tinker's Magic",
+  "type": "loot",
+  "folder": "bac611035d135325",
+  "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>For the Tinker's Magic feature (D&amp;D 2024 Artificer).</p>\n<ul>\n<li>Requires Tinker's Tools.</li>\n<li>Costs one use of Tinker's Magic (see the Script \"Tinker's Magic use\").</li>\n<li>The results do not stack and are removed after the next long rest.</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Recipe",
+      "recipe": {
+        "required": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbtulTinkersToo": {
+              "id": "phbtulTinkersToo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo",
+              "img": "icons/commodities/cloth/thread-spindle-white-needle.webp",
+              "name": "Tinker's Tools",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "tool"
+            }
+          }
+        },
+        "input": {
+          "1": {
+            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bacd1dc7f5b5c3be": {
+              "id": "bacd1dc7f5b5c3be",
+              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bacd1dc7f5b5c3be",
+              "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+              "name": "Tinker's Magic use",
+              "type": "Script",
+              "quantity": 1,
+              "itemType": "loot"
+            }
+          }
+        },
+        "output": {
+          "1": {
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBallBearing": {
+              "id": "phbagBallBearing",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing",
+              "img": "icons/weapons/ammunition/shot-round-brown.webp",
+              "name": "Ball Bearings",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBasket00000": {
+              "id": "phbagBasket00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000",
+              "img": "icons/containers/misc/basket-handle-woven-gold.webp",
+              "name": "Basket",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBedroll0000": {
+              "id": "phbagBedroll0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000",
+              "img": "icons/sundries/survival/bedroll-grey.webp",
+              "name": "Bedroll",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBell0000000": {
+              "id": "phbagBell0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000",
+              "img": "icons/tools/instruments/bell-brass-brown.webp",
+              "name": "Bell",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBlanket0000": {
+              "id": "phbagBlanket0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000",
+              "img": "icons/sundries/survival/bedroll-pink.webp",
+              "name": "Blanket",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBlockandTac": {
+              "id": "phbagBlockandTac",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac",
+              "img": "icons/tools/fishing/reel-brown-white.webp",
+              "name": "Block and Tackle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBottleGlass": {
+              "id": "phbagBottleGlass",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass",
+              "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+              "name": "Bottle, Glass",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagBucket00000": {
+              "id": "phbagBucket00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000",
+              "img": "icons/containers/misc/bucket-steel.webp",
+              "name": "Bucket",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagCaltrops000": {
+              "id": "phbagCaltrops000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000",
+              "img": "icons/weapons/thrown/bomb-spiked-purple.webp",
+              "name": "Caltrops",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagCandle00000": {
+              "id": "phbagCandle00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000",
+              "img": "icons/sundries/lights/candle-unlit-tan.webp",
+              "name": "Candle",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagCrowbar0000": {
+              "id": "phbagCrowbar0000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000",
+              "img": "icons/tools/hand/pickaxe-steel-white.webp",
+              "name": "Crowbar",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagFlask000000": {
+              "id": "phbagFlask000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000",
+              "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
+              "name": "Flask",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagGrapplingHo": {
+              "id": "phbagGrapplingHo",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo",
+              "img": "icons/tools/fishing/hook-multi-steel-brown.webp",
+              "name": "Grappling Hook",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagHuntingTrap": {
+              "id": "phbagHuntingTrap",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap",
+              "img": "icons/environment/traps/trap-jaw-steel.webp",
+              "name": "Hunting Trap",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagJug00000000": {
+              "id": "phbagJug00000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000",
+              "img": "icons/containers/kitchenware/jug-terracotta-orange.webp",
+              "name": "Jug",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagLamp0000000": {
+              "id": "phbagLamp0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000",
+              "img": "modules/dnd-players-handbook/assets/full/items/lamp.webp",
+              "name": "Lamp",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagManacles000": {
+              "id": "phbagManacles000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagManacles000",
+              "img": "icons/sundries/survival/cuffs-shackles-steel.webp",
+              "name": "Manacles",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagNet00000000": {
+              "id": "phbagNet00000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000",
+              "img": "modules/dnd-players-handbook/assets/full/items/net.webp",
+              "name": "Net",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagOil00000000": {
+              "id": "phbagOil00000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000",
+              "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+              "name": "Oil",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagPaper000000": {
+              "id": "phbagPaper000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000",
+              "img": "icons/sundries/documents/paper-plain-white.webp",
+              "name": "Paper",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagParchment00": {
+              "id": "phbagParchment00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagParchment00",
+              "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+              "name": "Parchment",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagPole0000000": {
+              "id": "phbagPole0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000",
+              "img": "icons/commodities/wood/wood-pole.webp",
+              "name": "Pole",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagPouch000000": {
+              "id": "phbagPouch000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000",
+              "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+              "name": "Pouch",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagRope0000000": {
+              "id": "phbagRope0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000",
+              "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+              "name": "Rope",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagSack0000000": {
+              "id": "phbagSack0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000",
+              "img": "icons/containers/bags/sack-cloth-orange.webp",
+              "name": "Sack",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagShovel00000": {
+              "id": "phbagShovel00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000",
+              "img": "icons/tools/hand/shovel-spade-steel-grey.webp",
+              "name": "Shovel",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagSpikesIron0": {
+              "id": "phbagSpikesIron0",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0",
+              "img": "icons/tools/fasteners/nails-steel-brown.webp",
+              "name": "Spikes, Iron",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagString00000": {
+              "id": "phbagString00000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagString00000",
+              "img": "icons/tools/hand/needle-grey.webp",
+              "name": "String",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "loot",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagTinderbox00": {
+              "id": "phbagTinderbox00",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00",
+              "img": "icons/sundries/lights/torch-black.webp",
+              "name": "Tinderbox",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "equipment",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagTorch000000": {
+              "id": "phbagTorch000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000",
+              "img": "icons/sundries/lights/torch-brown-lit.webp",
+              "name": "Torch",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "consumable",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            },
+            "Compendium-dnd-players-handbook-equipment-Item-phbagVial0000000": {
+              "id": "phbagVial0000000",
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000",
+              "img": "icons/consumables/potions/vial-cork-empty.webp",
+              "name": "Vial",
+              "type": "Item",
+              "quantity": 1,
+              "itemType": "container",
+              "flags": {
+                "beavers-crafting": {
+                  "noStack": true,
+                  "fastCrafted": true
+                }
+              }
+            }
+          }
+        },
+        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificers-crafting\").api.resolve(component, preview);\n  }\n}",
+        "folder": "Artificer",
+        "instruction": "<p>For the Tinker's Magic feature (D&amp;D 2024 Artificer).</p>\n<ul>\n<li>Requires Tinker's Tools.</li>\n<li>Costs one use of Tinker's Magic (see the Script \"Tinker's Magic use\").</li>\n<li>The results do not stack and are removed after the next long rest.</li>\n</ul>"
+      }
+    }
+  }
+}

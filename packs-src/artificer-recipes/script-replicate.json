@@ -1,0 +1,22 @@
+{
+  "_id": "bac068e6e6227e92",
+  "_key": "!items!bac068e6e6227e92",
+  "name": "Replicate Magic Item",
+  "type": "loot",
+  "folder": "bac3b775e5e5f954",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "sort": 200,
+  "system": {
+    "description": {
+      "value": "<p>Cost: one of the magic items of Replicate Magic Item until the next long rest.</p>\n<ul>\n<li>As many per long rest as the \"Magic Items\" column of the Artificer table allows for the Artificer level.</li>\n<li>Each item since the last long rest must come from a different plan (recipe).</li>\n</ul>"
+    }
+  },
+  "flags": {
+    "beavers-crafting": {
+      "subtype": "Script",
+      "script": {
+        "macro": "{\n  check(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.replicate.check(actor, recipe, quantity);\n  },\n  pay(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.replicate.pay(actor, recipe, quantity);\n  },\n  refund(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.replicate.refund(actor, recipe, quantity);\n  }\n}"
+      }
+    }
+  }
+}
