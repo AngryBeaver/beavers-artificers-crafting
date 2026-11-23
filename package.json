@@ -1,7 +1,7 @@
 {
   "name": "beavers-artificers-crafting",
   "title": "Beaver's Artificer's Crafting",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Artificer recipes for Beaver's Crafting (dnd5e, D&D 2024): Tinker's Magic and the plans of Replicate Magic Item",
   "devDir": "c:\\vtts\\v14.368\\Data\\modules",
   "type": "module",
