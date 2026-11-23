@@ -384,7 +384,7 @@ for (const level of LEVELS) {
       name: recipeName,
       img,
       folderId,
-      craftFolder: `Artificer Plans (Level ${level}+)`,
+      craftFolder: `Artificer.Plans (Level ${level}+)`,
       required: [TINKERS_TOOLS, LEVEL_SCRIPT[level]],
       input: [REPLICATE_USE],
       output,
