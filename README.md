@@ -7,8 +7,17 @@
 
 Artificer recipes for [Beaver's Crafting](https://github.com/AngryBeaver/beavers-crafting), for the dnd5e system (D&D 2024).
 
-Requires Beaver's Crafting 4.13.0 or newer. Set the Beaver's Crafting setting "Recipes use required Items" on,
-so the requirements (Tinker's Tools, Artificer level) are checked.
+Requires Beaver's Crafting 4.13.0 or newer. Keep its setting "Recipes use required Items" on (the default): with it
+off, the requirements (Tinker's Tools, Artificer level) are not checked.
+
+## What you need
+- **The Artificer**: the D&D 2024 Artificer is not in the SRD 5.2. You need the book with the Artificer and its class
+  and features (Tinker's Magic, Replicate Magic Item) on your actors. This module brings only the recipes, not the
+  class or its rules.
+- **The items**: most plans make items of the SRD 5.2, which dnd5e brings along. With the Dungeon Master's Guide and
+  Player's Handbook modules active, their versions are used. The plans of the Artificer's own book (Manifold Tool,
+  Repeating Shot, …) make items that are in no free compendium: put those items from your book in a compendium or the
+  world, see [Which item you get](#which-item-you-get).
 
 ## What you get
 The compendium **D&D 2024 Artificer Recipes** with:
@@ -25,15 +34,6 @@ The compendium **D&D 2024 Artificer Recipes** with:
 The rules themselves are in the book; the recipes only name the features and the items.
 
 ![The compendium with Tinker's Magic and three plans of Replicate Magic Item](media/compendium-plans.png)
-
-## What you need
-- **The Artificer**: the D&D 2024 Artificer is not in the SRD 5.2. You need the book with the Artificer and its class
-  and features (Tinker's Magic, Replicate Magic Item) on your actors. This module brings only the recipes, not the
-  class or its rules.
-- **The items**: most plans make items of the SRD 5.2, which dnd5e brings along. With the Dungeon Master's Guide and
-  Player's Handbook modules active, their versions are used. The plans of the Artificer's own book (Manifold Tool,
-  Repeating Shot, …) make items that are in no free compendium: put those items from your book in a compendium or the
-  world, see [Which item you get](#which-item-you-get).
 
 ## Which item you get
 Every result is looked up when it is crafted, by its name and item type:
