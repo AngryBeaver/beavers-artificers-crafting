@@ -45,7 +45,6 @@ Nothing found: the crafting stops with the error that the item is not in the SRD
 from its book. The plans of the Artificer's own book (Manifold Tool, Repeating Shot, Returning Weapon,
 Boots of the Winding Path, Dazzling Weapon, Helm of Awareness, Mind Sharpener, Repulsion Shield, Spell-Refueling Ring)
 are in no free compendium: put an item with that name in a compendium or the world.
-
 ## Tinker's Magic
 - Requires Tinker's Tools.
 - Costs one use of Tinker's Magic (Script "Tinker's Magic use"):
