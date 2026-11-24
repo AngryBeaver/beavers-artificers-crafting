@@ -68,7 +68,7 @@ jobs:
           make_latest: true
           generate_release_notes: true
           files: |
-            package/beavers-artificers-crafting.zip
+            package/beavers-artificer-crafting.zip
             package/module.json
 
   # Registers the version on foundryvtt.com so it shows up in Foundry's package browser.

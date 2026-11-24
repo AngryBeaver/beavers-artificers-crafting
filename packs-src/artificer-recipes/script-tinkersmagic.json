@@ -15,7 +15,7 @@
     "beavers-crafting": {
       "subtype": "Script",
       "script": {
-        "macro": "{\n  check(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.check(actor, quantity);\n  },\n  pay(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.pay(actor, quantity);\n  },\n  refund(quantity) {\n    return game.modules.get(\"beavers-artificers-crafting\").api.tinkersMagic.refund(actor, quantity);\n  }\n}"
+        "macro": "{\n  check(quantity) {\n    return game.modules.get(\"beavers-artificer-crafting\").api.tinkersMagic.check(actor, quantity);\n  },\n  pay(quantity) {\n    return game.modules.get(\"beavers-artificer-crafting\").api.tinkersMagic.pay(actor, quantity);\n  },\n  refund(quantity) {\n    return game.modules.get(\"beavers-artificer-crafting\").api.tinkersMagic.refund(actor, quantity);\n  }\n}"
       }
     }
   }

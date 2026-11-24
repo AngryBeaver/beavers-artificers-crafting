@@ -27,9 +27,9 @@
             }
           },
           "2": {
-            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac820e400988b9d": {
+            "Compendium-beavers-artificer-crafting-artificer-recipes-Item-bac820e400988b9d": {
               "id": "bac820e400988b9d",
-              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac820e400988b9d",
+              "uuid": "Compendium.beavers-artificer-crafting.artificer-recipes.Item.bac820e400988b9d",
               "img": "icons/sundries/books/book-worn-blue.webp",
               "name": "Artificer level 6",
               "type": "Script",
@@ -40,9 +40,9 @@
         },
         "input": {
           "1": {
-            "Compendium-beavers-artificers-crafting-artificer-recipes-Item-bac068e6e6227e92": {
+            "Compendium-beavers-artificer-crafting-artificer-recipes-Item-bac068e6e6227e92": {
               "id": "bac068e6e6227e92",
-              "uuid": "Compendium.beavers-artificers-crafting.artificer-recipes.Item.bac068e6e6227e92",
+              "uuid": "Compendium.beavers-artificer-crafting.artificer-recipes.Item.bac068e6e6227e92",
               "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
               "name": "Replicate Magic Item",
               "type": "Script",
@@ -65,7 +65,7 @@
                 "beavers-crafting": {
                   "noStack": true
                 },
-                "beavers-artificers-crafting": {
+                "beavers-artificer-crafting": {
                   "replicated": true,
                   "plan": "Plan: Necklace of Adaptation"
                 }
@@ -73,7 +73,7 @@
             }
           }
         },
-        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificers-crafting\").api.resolve(component, preview);\n  }\n}",
+        "macro": "{\n  async resultChosen(component, preview) {\n    await game.modules.get(\"beavers-artificer-crafting\").api.resolve(component, preview);\n  }\n}",
         "folder": "Artificer.Plans (Level 6+)",
         "instruction": "<p>A plan of Replicate Magic Item (D&amp;D 2024 Artificer, level 6+).</p>\n<ul>\n<li>Learn the plan: put this recipe on the Artificer. Removing it from the actor makes its items vanish.</li>\n<li>Requires Tinker's Tools and Artificer level 6.</li>\n<li>Costs one item of Replicate Magic Item until the next long rest (see the Script \"Replicate Magic Item\").</li>\n<li>More items than the Artificer level allows: the oldest one vanishes.</li>\n\n</ul>"
       }

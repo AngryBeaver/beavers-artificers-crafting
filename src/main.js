@@ -4,9 +4,9 @@
 //   items of a removed plan vanish
 // - every result is looked up when it is crafted: Dungeon Master's Guide / Player's Handbook, then the SRD,
 //   then any compendium or world item with the same name and type
-// The Scripts of the compendium call game.modules.get("beavers-artificers-crafting").api.
+// The Scripts of the compendium call game.modules.get("beavers-artificer-crafting").api.
 
-const MODULE = "beavers-artificers-crafting";
+const MODULE = "beavers-artificer-crafting";
 const CRAFTING = "beavers-crafting";
 const REST_FLAG = "rest"; // { tinkersMagic: number, replicated: number, plans: string[] } since the last long rest
 

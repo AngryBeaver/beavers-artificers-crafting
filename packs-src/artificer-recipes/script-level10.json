@@ -15,7 +15,7 @@
     "beavers-crafting": {
       "subtype": "Script",
       "script": {
-        "macro": "{\n  check() {\n    return game.modules.get(\"beavers-artificers-crafting\").api.replicate.level(actor, 10);\n  }\n}"
+        "macro": "{\n  check() {\n    return game.modules.get(\"beavers-artificer-crafting\").api.replicate.level(actor, 10);\n  }\n}"
       }
     }
   }
